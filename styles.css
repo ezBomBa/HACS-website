@@ -585,18 +585,62 @@
     }
 }
 
+.search_{
+    color: #fff;
+}
+.file_{
+    color: #fff;
+}
+.text_{
+    color: #fff;
+}
+.checkbox_{
+    color: #fff;
+}
+.color_{
+    color: #fff;
+}
+.range_{
+    color: #fff;
+}
+.submit_{
+    color: #fff;
+}
+.password_{
+    color: #fff;
+}
+
 .search{
-    background-color: #f77062;
+    overflow: hidden;
     margin-bottom: 2rem;
     border-radius: 7px;
     border-color: #e9e9e9;
 }
 
 .file{
-    background-color: #f77062;
+    background-color: #c1c1c1;
     margin-bottom: 2rem;
     border-radius: 7px;
     border-color: #e9e9e9;
+}
+
+.text{
+    margin-bottom: 2rem;
+}
+.checkbox{
+    margin-bottom: 2rem;
+}
+.color{
+    margin-bottom: 2rem;
+}
+.range{
+    margin-bottom: 2rem;
+}
+.submit{
+    margin-bottom: 2rem;
+}
+.password{
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 480px){
