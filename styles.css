@@ -28,6 +28,7 @@
 }
 
 #navbar__logo{
+    animation: color-change 1s infinite;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -41,6 +42,19 @@
     text-decoration: none;
     font-size: 2rem;
 }
+
+p {
+    animation: color-change 2s infinite;
+}
+  
+@keyframes color-change {
+    000% { color: rgb(255, 0, 0); }
+    025% { color: rgb(91, 188, 0); }
+    050% { color: rgb(0, 21, 255); }
+    075% { color: rgb(136, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+}
+  
 
 .fa-gem{
     margin-right: 0.5rem;
